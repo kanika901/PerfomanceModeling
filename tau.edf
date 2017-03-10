@@ -19,16 +19,16 @@
 14 MPI 0 "MPI_Waitall()  " EntryExit
 19 TAUEVENT 0 "Message size for broadcast" TriggerValue
 21 TAUEVENT 0 "Message size received from all nodes" TriggerValue
-23 TAUEVENT 0 "Message size received in wait : _ZN4Grid13exchangeEdgesEv [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d.cpp} {106,0}] => MPI_Waitall()  " TriggerValue
+23 TAUEVENT 0 "Message size received in wait : _ZN4Grid13exchangeEdgesEv [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d_copy.cpp} {106,0}] => MPI_Waitall()  " TriggerValue
 22 TAUEVENT 0 "Message size received in wait" TriggerValue
 20 TAUEVENT 0 "Message size sent to all nodes" TriggerValue
 24 TAUEVENT 0 "TauTraceClockOffsetEnd" TriggerValue
 18 TAUEVENT 0 "TauTraceClockOffsetStart" TriggerValue
 29 TRACER 0 "WALL_CLOCK" none
-10 TAU_DEFAULT 0 "_ZN4Grid12doIterationsEi [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d.cpp} {50,0}] " EntryExit
-11 TAU_DEFAULT 0 "_ZN4Grid13exchangeEdgesEv [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d.cpp} {106,0}] " EntryExit
-15 TAU_DEFAULT 0 "_ZN4Grid14doOneIterationEv [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d.cpp} {94,0}] " EntryExit
-9 TAU_DEFAULT 0 "_ZN4Grid8initGridEi [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d.cpp} {63,0}] " EntryExit
-8 TAU_DEFAULT 0 "_ZN4GridC2Eiiiii [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d.cpp} {22,0}] " EntryExit
-17 TAU_DEFAULT 0 "_ZN4GridD2Ev [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d.cpp} {40,0}] " EntryExit
-3 TAU_DEFAULT 0 "main [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d.cpp} {160,0}] " EntryExit
+10 TAU_DEFAULT 0 "_ZN4Grid12doIterationsEi [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d_copy.cpp} {50,0}] " EntryExit
+11 TAU_DEFAULT 0 "_ZN4Grid13exchangeEdgesEv [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d_copy.cpp} {106,0}] " EntryExit
+15 TAU_DEFAULT 0 "_ZN4Grid14doOneIterationEv [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d_copy.cpp} {94,0}] " EntryExit
+9 TAU_DEFAULT 0 "_ZN4Grid8initGridEi [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d_copy.cpp} {63,0}] " EntryExit
+8 TAU_DEFAULT 0 "_ZN4GridC2Eiiiii [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d_copy.cpp} {22,0}] " EntryExit
+17 TAU_DEFAULT 0 "_ZN4GridD2Ev [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d_copy.cpp} {40,0}] " EntryExit
+3 TAU_DEFAULT 0 "main [{/home/users/kanikas/MyProjects/PerfomanceModeling/Wave2d_copy.cpp} {160,0}] " EntryExit
